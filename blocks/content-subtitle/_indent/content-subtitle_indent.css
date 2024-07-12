@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+  .content-subtitle_indent {
+    margin: 24px 0 72px;
+  }
+}
+
+@media (max-width: 376px) {
+  .content-subtitle_indent {
+    margin: 16px 0 48px;
+  }
+}
+
+@media (max-width: 320px) {
+  .content-subtitle_indent {
+    margin-bottom: 40px;
+  }
+}

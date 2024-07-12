@@ -1,0 +1,18 @@
+.cover__between {
+  background-color: rgba(42, 44, 47, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.cover__between:hover {
+  background-color: rgba(42, 44, 47, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: background-color 0.5s linear;
+}

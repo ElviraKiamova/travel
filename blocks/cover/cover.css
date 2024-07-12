@@ -1,0 +1,16 @@
+.cover {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .cover {
+    width: 100vw;
+    max-height: 640px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover {
+    max-width: 768px;
+  }
+}

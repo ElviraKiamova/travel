@@ -1,0 +1,15 @@
+.video__indent {
+  margin: 102px auto;
+}
+
+@media (max-width: 768px) {
+  .video__indent {
+    margin: 95px auto 102px;
+  }
+}
+
+@media (max-width: 375px) {
+  .video__indent {
+    margin: 64px auto;
+  }
+}

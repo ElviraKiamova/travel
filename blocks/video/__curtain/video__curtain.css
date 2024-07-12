@@ -1,0 +1,7 @@
+.video__curtain {
+  max-width: 583px;
+  max-height: 323px;
+  position: absolute;
+  border-radius: 5px;
+  z-index: 1;
+}

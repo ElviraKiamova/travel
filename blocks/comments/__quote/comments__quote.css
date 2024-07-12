@@ -1,0 +1,13 @@
+.comments__quote {
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .comments__quote {
+    margin-top: 16px;
+    line-height: 23px;
+    text-align: left;
+  }
+}

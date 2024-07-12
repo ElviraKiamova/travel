@@ -1,0 +1,38 @@
+.comment {
+  list-style-type: none;
+  max-width: 382px;
+  padding-right: 19px;
+  margin: 0;
+}
+
+.comment:last-child {
+  padding: 0;
+}
+
+@media (max-width: 1200px) {
+  .comment {
+    max-width: 296px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .comment {
+    text-align: center;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .comment {
+    max-width: 343px;
+  }
+}
+
+@media (max-width: 350px) {
+  .comment {
+    max-width: 288px;
+  }
+}

@@ -1,0 +1,15 @@
+.page__video {
+  margin: 102px 0;
+}
+
+@media (max-width: 768px) {
+  .page__video {
+    margin: 95px 0 102px;
+  }
+}
+
+@media (max-width: 400px) {
+  .page__video {
+    margin: 64px 0;
+  }
+}
