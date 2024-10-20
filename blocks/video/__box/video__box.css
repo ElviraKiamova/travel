@@ -1,7 +1,17 @@
 .video__box {
-  position: relative;
+  width: 583px;
   border-radius: 5px;
-  position: relative;
-  overflow: hidden;
-  padding-top: 56.25%;
+}
+
+.video__box:first-child {
+  margin-right: 30px;
+}
+
+@media (max-width: 1270px) {
+  .video__box {
+    width: 100%;
+  }
+  .video__box:first-child {
+    margin-right: 0;
+  }
 }
